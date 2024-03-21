@@ -5,6 +5,9 @@
 .drink,
 .dish {
     font-size: 24px;
+    display: block;
+    padding: 8px;
+    margin: auto;
 }
 
 .dish {
@@ -18,18 +21,26 @@
 .header {
     font-size: 44px;
     font-weight: bold;
-    text-decoration: underline;
+    border: 2px;
+    border-style: double;
+    background-color: bisque;
+    padding: 8px;
+    text-align: center;
 }
 
 h2.header {
     font-size: 34px;
     font-style: italic;
     font-weight: 800;
+    text-align: left;
+    margin: 24px;
 }
 
 .image {
     width: 150px;
     height: auto;
+    display: block;
+    margin: 8px auto;
 }
 
 .page.image {
